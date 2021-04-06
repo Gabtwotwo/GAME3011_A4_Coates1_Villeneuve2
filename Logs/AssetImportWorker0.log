@@ -1,0 +1,1456 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32715 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/GAME3011_A4_Coates1_Villeneuve2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50343
+Successfully changed project path to: E:/Unity/GAME3011_A4_Coates1_Villeneuve2
+E:/Unity/GAME3011_A4_Coates1_Villeneuve2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/GAME3011_A4_Coates1_Villeneuve2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001793 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 22.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.0 MB.
+System memory in use after: 56.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1534.
+Total: 1.887800 ms (FindLiveObjects: 0.156700 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.644200 ms  DeleteObjects: 0.058400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/BackTile_05.png
+  artifactKey: Guid(2f62ccdbe02e3e44e9bd7452fee3332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BackTile_05.png using Guid(2f62ccdbe02e3e44e9bd7452fee3332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4facdbd7a836fc69ae74d0b943f93c72') in 0.086168 seconds
+  Import took 0.088214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.088108 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_01.png
+  artifactKey: Guid(0c43330572849ee499acbe88aa46ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_01.png using Guid(0c43330572849ee499acbe88aa46ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd2d8dd93b499ba7ca83830d4f370d4') in 0.252963 seconds
+  Import took 0.254967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_05.png
+  artifactKey: Guid(80438358bc20e6044944faebbe54e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_05.png using Guid(80438358bc20e6044944faebbe54e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c7bc214fff86c0fbd794a26490959d') in 0.029884 seconds
+  Import took 0.031765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_01.png
+  artifactKey: Guid(0c43330572849ee499acbe88aa46ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_01.png using Guid(0c43330572849ee499acbe88aa46ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd2d8dd93b499ba7ca83830d4f370d4') in 0.005597 seconds
+  Import took 0.007173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_01.png
+  artifactKey: Guid(f02bdbc97f5e6394e8854ec8b53bfa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_01.png using Guid(f02bdbc97f5e6394e8854ec8b53bfa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa63939189baf13aa7732e82139b096d') in 0.023599 seconds
+  Import took 0.025267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_10.png
+  artifactKey: Guid(6c8956f2fb9c9e24c93746f3f25fd396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_10.png using Guid(6c8956f2fb9c9e24c93746f3f25fd396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549573df8d51ad74e6a4a659a879589c') in 0.029121 seconds
+  Import took 0.050356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_08.png
+  artifactKey: Guid(1d9be2cd41399074b922e2447aa2f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_08.png using Guid(1d9be2cd41399074b922e2447aa2f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1c9e8aecc6a8eebf5bed63d76582f0') in 0.016439 seconds
+  Import took 0.018562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_13.png
+  artifactKey: Guid(0accc99dab1243f439ad06927934d1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_13.png using Guid(0accc99dab1243f439ad06927934d1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aade723aba9f759fba2a480900e930a6') in 0.041643 seconds
+  Import took 0.043275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_18.png
+  artifactKey: Guid(6eee38242af4efb42b563944ca35d5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_18.png using Guid(6eee38242af4efb42b563944ca35d5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb04b2b833d520bb88d13de5fa3ab815') in 0.026156 seconds
+  Import took 0.028018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_09.png
+  artifactKey: Guid(8ff516f3a8e69d340ac5290517589b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_09.png using Guid(8ff516f3a8e69d340ac5290517589b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae015da568437575cca84c74c503efa') in 0.019048 seconds
+  Import took 0.020644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_03.png
+  artifactKey: Guid(b03b96eb27ccd394aaca7ddc650fd89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_03.png using Guid(b03b96eb27ccd394aaca7ddc650fd89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9356e03d6e16b5ebcebbd9b1c4c3509') in 0.019872 seconds
+  Import took 0.021462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_15.png
+  artifactKey: Guid(731458fb6fd0c0e49bd4d74b72dd47d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_15.png using Guid(731458fb6fd0c0e49bd4d74b72dd47d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d414d259970096d5e1417f1649f1b48') in 0.015349 seconds
+  Import took 0.017390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_04.png
+  artifactKey: Guid(2f3365dd44e511f498c5c2e369511187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_04.png using Guid(2f3365dd44e511f498c5c2e369511187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501f27860711cf6cfed146ffe6517d4b') in 0.015883 seconds
+  Import took 0.017651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_06.png
+  artifactKey: Guid(1a532335e9f614d42bd47bda96c99588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_06.png using Guid(1a532335e9f614d42bd47bda96c99588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a32b2aa8cd3b2c84fc1ac68d6bd85a') in 0.011603 seconds
+  Import took 0.013265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_02.png
+  artifactKey: Guid(092adfbbc4d74e740965f0813a820366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_02.png using Guid(092adfbbc4d74e740965f0813a820366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d57911028ae3a6814a08ecb8855e93b') in 0.031392 seconds
+  Import took 0.033525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_12.png
+  artifactKey: Guid(0cc975475315f6f48b55c3c38d4b2396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_12.png using Guid(0cc975475315f6f48b55c3c38d4b2396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab7eb8fa27aa9c838dbe65784060de6') in 0.011293 seconds
+  Import took 0.012822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_02.png
+  artifactKey: Guid(092adfbbc4d74e740965f0813a820366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_02.png using Guid(092adfbbc4d74e740965f0813a820366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d57911028ae3a6814a08ecb8855e93b') in 0.005385 seconds
+  Import took 0.006763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_10.png
+  artifactKey: Guid(d11118539c265564e8d4b79c77280eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_10.png using Guid(d11118539c265564e8d4b79c77280eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af1c0d409aca79df0cf6b68f8357135') in 0.016203 seconds
+  Import took 0.017734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_07.png
+  artifactKey: Guid(2c9edfa88e447d146a5f9dbc5b4a8c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_07.png using Guid(2c9edfa88e447d146a5f9dbc5b4a8c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b18102b0c2735cd25ab8e78813e44') in 0.015548 seconds
+  Import took 0.017124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_08.png
+  artifactKey: Guid(3c12e09b659e2314295a5b734858f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_08.png using Guid(3c12e09b659e2314295a5b734858f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d77c12cef834b73ed07f55bca8258c') in 0.014169 seconds
+  Import took 0.016279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_06.png
+  artifactKey: Guid(2801d75c2029e0640a6e86a5d4492cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_06.png using Guid(2801d75c2029e0640a6e86a5d4492cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066f55e9b6fea0fcb9a8bc526436224b') in 0.015170 seconds
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_11.png
+  artifactKey: Guid(4d359d57fd6d96d46a7e79484011992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_11.png using Guid(4d359d57fd6d96d46a7e79484011992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe2ad127983e76bb114ab6ae553c60c') in 0.014840 seconds
+  Import took 0.016553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_02.png
+  artifactKey: Guid(9a4c0cf55110142499b877ac4efc2978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_02.png using Guid(9a4c0cf55110142499b877ac4efc2978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de0dec0d9e4ab151963320362b8e714') in 0.016892 seconds
+  Import took 0.018734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_03.png
+  artifactKey: Guid(44c6e1dee7f98ad49a48788c7bb95fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_03.png using Guid(44c6e1dee7f98ad49a48788c7bb95fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfe625bdf7a5e287ab3c63c4f0175e4') in 0.039946 seconds
+  Import took 0.042026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_07.png
+  artifactKey: Guid(76dc9ef462153164097a0ebe837cffca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_07.png using Guid(76dc9ef462153164097a0ebe837cffca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301bf3cdf5a58422b78ab59e6c44bbd1') in 0.010902 seconds
+  Import took 0.012453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_17.png
+  artifactKey: Guid(763850f8b08625842b4fc06b2f367b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_17.png using Guid(763850f8b08625842b4fc06b2f367b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2779096da845aadc68d88fee503d826f') in 0.010887 seconds
+  Import took 0.012636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_02.png
+  artifactKey: Guid(9d582a5a7b15c2944b1a74cd14a2aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_02.png using Guid(9d582a5a7b15c2944b1a74cd14a2aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02154bd185761cd7381b1095ae84367f') in 0.028208 seconds
+  Import took 0.030037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_04.png
+  artifactKey: Guid(7479f6ddae11bb943b4bf15e256d4271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_04.png using Guid(7479f6ddae11bb943b4bf15e256d4271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7a8989c533f9a4a8b3c6dd353d1a16') in 0.016480 seconds
+  Import took 0.018520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_16.png
+  artifactKey: Guid(a4e27ecdcd858d74580749a7444cea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_16.png using Guid(a4e27ecdcd858d74580749a7444cea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125a0f2a2809211d8eda4882def98b64') in 0.015621 seconds
+  Import took 0.017156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_09.png
+  artifactKey: Guid(c65748c849e2c1f40a238679de9e4a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_09.png using Guid(c65748c849e2c1f40a238679de9e4a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3321b284479ad656c2650cdd72569d11') in 0.014731 seconds
+  Import took 0.016781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_01.png
+  artifactKey: Guid(1e5f1ec461aed884bb1b61ca9ab7821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_01.png using Guid(1e5f1ec461aed884bb1b61ca9ab7821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9ada87a63b52a2aebd07f729833726') in 0.052459 seconds
+  Import took 0.054039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Black/ballBlack_03.png
+  artifactKey: Guid(2714e7d0adbb74c4b821cf228cad87db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Black/ballBlack_03.png using Guid(2714e7d0adbb74c4b821cf228cad87db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8440bfffe91b7b0a259a3b424613a170') in 0.014172 seconds
+  Import took 0.015751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_04.png
+  artifactKey: Guid(bc83ce5704493464f8f080de6f0144ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Balls/Blue/ballBlue_04.png using Guid(bc83ce5704493464f8f080de6f0144ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33b94efc91f4501fb0307548a9befbf') in 0.036172 seconds
+  Import took 0.037680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Kenney Assets/PNG/Back tiles/BackTile_14.png
+  artifactKey: Guid(5f2d49ef8cafafd4b980261e9b3b8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Back tiles/BackTile_14.png using Guid(5f2d49ef8cafafd4b980261e9b3b8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2017987fc0c7fb5c0cd222d93001bdd') in 0.010696 seconds
+  Import took 0.012313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.030220 seconds.
+  path: Assets/Sprites/pipeGrey_01.png
+  artifactKey: Guid(cd4900d5e228cf445bcf26cbf086c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_01.png using Guid(cd4900d5e228cf445bcf26cbf086c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16a154b7c22241137c6e15f7f7e2869') in 0.013580 seconds
+  Import took 0.015589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/pipeGrey_06.png
+  artifactKey: Guid(c379c2c8542cd9d48bb775a341b37716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_06.png using Guid(c379c2c8542cd9d48bb775a341b37716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695aed4d2707c8afa7edec453f693933') in 0.010819 seconds
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/pipeGrey_19.png
+  artifactKey: Guid(9b6bcb0c57b2c2b4188e3270deb13d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_19.png using Guid(9b6bcb0c57b2c2b4188e3270deb13d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770cf53eefc5b5ff3cf8b963f7ef3b09') in 0.201201 seconds
+  Import took 0.203197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/pipeGrey_07.png
+  artifactKey: Guid(3d3383eb881aee64b82b35de7401bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_07.png using Guid(3d3383eb881aee64b82b35de7401bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16fd966318ca23d18f1081a7fbb4aa8') in 0.012170 seconds
+  Import took 0.013903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/pipeGrey_03.png
+  artifactKey: Guid(5921ebdb1a2f5c84081e38ae9d0498b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_03.png using Guid(5921ebdb1a2f5c84081e38ae9d0498b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df42f9c26bda56937e22623772097b36') in 0.011579 seconds
+  Import took 0.013044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/pipeGrey_17.png
+  artifactKey: Guid(8d380040124ca274588209ef0631e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_17.png using Guid(8d380040124ca274588209ef0631e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4d31866f5c1bfcaaa020153a16d1c4') in 0.010230 seconds
+  Import took 0.011977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/pipeGrey_30.png
+  artifactKey: Guid(adf2cffafbccc5148acf79020a75f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_30.png using Guid(adf2cffafbccc5148acf79020a75f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0930b1dd85f6bbe9e88dc740b1217906') in 0.011161 seconds
+  Import took 0.013098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sprites/pipeGrey_21.png
+  artifactKey: Guid(78c95b8e24192a146b24e33a185c013b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_21.png using Guid(78c95b8e24192a146b24e33a185c013b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504824d3d0775d16452c113a54d88b8a') in 0.010183 seconds
+  Import took 0.011665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sprites/pipeGrey_22.png
+  artifactKey: Guid(473b0aad8e0064548a75aeed04b75492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_22.png using Guid(473b0aad8e0064548a75aeed04b75492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2b460652df712128ba00d6a13fdfcf') in 0.011073 seconds
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/pipeGrey_14.png
+  artifactKey: Guid(c8ca0ac4f53387b46a2897227ee719f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_14.png using Guid(c8ca0ac4f53387b46a2897227ee719f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519ed70936aa7e1201be74a56e4f4f9c') in 0.010116 seconds
+  Import took 0.011558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/pipeGrey_05.png
+  artifactKey: Guid(8a023f887505a964fa86685bf417f39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_05.png using Guid(8a023f887505a964fa86685bf417f39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8fec9082901a0f517e4b5a478adde1') in 0.010422 seconds
+  Import took 0.012134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/pipeGrey_32.png
+  artifactKey: Guid(b0b92a1fdb8db0640897770eddf8a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_32.png using Guid(b0b92a1fdb8db0640897770eddf8a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790a755396df22856b83a1af6c6b2f8b') in 0.009771 seconds
+  Import took 0.011546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/pipeGrey_23.png
+  artifactKey: Guid(f0d98cbeebd4df44f888348caaa1cf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_23.png using Guid(f0d98cbeebd4df44f888348caaa1cf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a27f96f4a30640244fd1beb0ad7f0c') in 0.074662 seconds
+  Import took 0.076365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/pipeGrey_02.png
+  artifactKey: Guid(ed48dccd5870b7149a674d2d20e2964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_02.png using Guid(ed48dccd5870b7149a674d2d20e2964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983455bcbd94ddfff1ac24bfc5517a88') in 0.010228 seconds
+  Import took 0.012089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/pipeGrey_13.png
+  artifactKey: Guid(73c41827f1ebb16429ca948f95f09a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_13.png using Guid(73c41827f1ebb16429ca948f95f09a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259fe6ef355a0290925429b90994e30f') in 0.010325 seconds
+  Import took 0.011856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/pipeGrey_16.png
+  artifactKey: Guid(b8cd8ae47898abe438ca67baf67bc82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_16.png using Guid(b8cd8ae47898abe438ca67baf67bc82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd4150ea37f938c8d304067a93df701') in 0.011343 seconds
+  Import took 0.013112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/pipeGrey_31.png
+  artifactKey: Guid(5c7b8c8684813174095fa4ed9ca2286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_31.png using Guid(5c7b8c8684813174095fa4ed9ca2286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c05bedcbc73124fd28f02336048ff07') in 0.010641 seconds
+  Import took 0.012269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/pipeGrey_24.png
+  artifactKey: Guid(378c439bb1ebe5444a27376f53b25412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_24.png using Guid(378c439bb1ebe5444a27376f53b25412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a07c04516d839ecf3625a999ab06316') in 0.009983 seconds
+  Import took 0.011506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/pipeGrey_25.png
+  artifactKey: Guid(aac02268be3ccc347a983e8fc4346aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_25.png using Guid(aac02268be3ccc347a983e8fc4346aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d92a5ea515d9a2bfe6f384a200fb588') in 0.010138 seconds
+  Import took 0.011601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/pipeGrey_29.png
+  artifactKey: Guid(4449ca2191e31d6479ac7f7959fd389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_29.png using Guid(4449ca2191e31d6479ac7f7959fd389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ef2ecf4c3c7f0f36f4e75330a54752') in 0.010736 seconds
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sprites/pipeGrey_33.png
+  artifactKey: Guid(7aa9263726095094696b50c9752d11f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_33.png using Guid(7aa9263726095094696b50c9752d11f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08ce2ead8130ba73791c36e409eb463') in 0.010581 seconds
+  Import took 0.012254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/pipeGrey_04.png
+  artifactKey: Guid(563336d224a498c49af0a27206eea01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_04.png using Guid(563336d224a498c49af0a27206eea01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56367a042f0eff621fa26da5bb944a7') in 0.010127 seconds
+  Import took 0.012130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/pipeGrey_08.png
+  artifactKey: Guid(308dd7fa7ec25dd43b5158b494e3ea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_08.png using Guid(308dd7fa7ec25dd43b5158b494e3ea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0861dddcf6209c8c4312b357434522') in 0.011781 seconds
+  Import took 0.013436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sprites/pipeGrey_20.png
+  artifactKey: Guid(301d9bd7af594b0459ede68b453d8b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_20.png using Guid(301d9bd7af594b0459ede68b453d8b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad8d306810cab2cab32ca325c906044') in 0.010119 seconds
+  Import took 0.011741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/pipeGrey_08.png
+  artifactKey: Guid(308dd7fa7ec25dd43b5158b494e3ea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_08.png using Guid(308dd7fa7ec25dd43b5158b494e3ea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0861dddcf6209c8c4312b357434522') in 0.005059 seconds
+  Import took 0.006628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/pipeGrey_28.png
+  artifactKey: Guid(c4e4110ad7d27894aace6f14cd412045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_28.png using Guid(c4e4110ad7d27894aace6f14cd412045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25adf15d848a340742ce334bc99b164a') in 0.009935 seconds
+  Import took 0.011713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/pipeGrey_27.png
+  artifactKey: Guid(5b26591bdb771764bb75fcf2bf55c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_27.png using Guid(5b26591bdb771764bb75fcf2bf55c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67b90626b0e4703e73468e95fbd2f01') in 0.011288 seconds
+  Import took 0.012876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/pipeGrey_18.png
+  artifactKey: Guid(5c7b5e43f1d8e2145855f14ea3de7aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_18.png using Guid(5c7b5e43f1d8e2145855f14ea3de7aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02856bfee044286ca7857ce1fd3fa496') in 0.010767 seconds
+  Import took 0.012314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/pipeGrey_15.png
+  artifactKey: Guid(cdd1b9d3d5e903043b492786dbba3ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_15.png using Guid(cdd1b9d3d5e903043b492786dbba3ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316593fe026ffe085ee6345074042af4') in 0.010797 seconds
+  Import took 0.012378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sprites/pipeGrey_01.png
+  artifactKey: Guid(cd4900d5e228cf445bcf26cbf086c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_01.png using Guid(cd4900d5e228cf445bcf26cbf086c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16a154b7c22241137c6e15f7f7e2869') in 0.005883 seconds
+  Import took 0.007265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/pipeGrey_12.png
+  artifactKey: Guid(bc4570b9d5649614ca3e3c1fff2a3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_12.png using Guid(bc4570b9d5649614ca3e3c1fff2a3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d63f3f15d5d49f3a8b4430418b42dcb') in 0.010257 seconds
+  Import took 0.012107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/pipeGrey_11.png
+  artifactKey: Guid(573d6a55792d2dd438efefb0d35344d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_11.png using Guid(573d6a55792d2dd438efefb0d35344d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ea762fa2750411ec797b5509c2b061') in 0.009907 seconds
+  Import took 0.011493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/pipeGrey_09.png
+  artifactKey: Guid(8395dd7bb5ebd014db38953ab83f498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_09.png using Guid(8395dd7bb5ebd014db38953ab83f498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c384c22e282396af0636ab018c0257ac') in 0.012097 seconds
+  Import took 0.013672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/pipeGrey_26.png
+  artifactKey: Guid(c2b88a2a9835932459c96b017f6fc8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_26.png using Guid(c2b88a2a9835932459c96b017f6fc8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af332fd286b0a08eef353ed4cc2c89da') in 0.010673 seconds
+  Import took 0.012339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/pipeGrey_10.png
+  artifactKey: Guid(c62c296ca4ed8064baa65b6eb2480097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_10.png using Guid(c62c296ca4ed8064baa65b6eb2480097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5df6d92a4383c410dd4e653adc7999') in 0.010821 seconds
+  Import took 0.012385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.745109 seconds.
+  path: Assets/Sprites/pipeGrey_34.png
+  artifactKey: Guid(3d90da6efd227244ca7f5da758fa59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_34.png using Guid(3d90da6efd227244ca7f5da758fa59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4626addb6654ab163780fff5a1b5ba') in 0.012149 seconds
+  Import took 0.014114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/pipeGrey_38.png
+  artifactKey: Guid(67a886249ce5c674086f3627132096bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_38.png using Guid(67a886249ce5c674086f3627132096bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4a5c80790959e9a4ce2ab3e52c5c90') in 0.012926 seconds
+  Import took 0.014813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/pipeGrey_39.png
+  artifactKey: Guid(4c876a9bae071e14a877e76034ab8019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_39.png using Guid(4c876a9bae071e14a877e76034ab8019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26df3ae7bec8f9ed96dd39aca172e9da') in 0.014410 seconds
+  Import took 0.015983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/pipeGrey_40.png
+  artifactKey: Guid(7df5019280b30ba4dbb738f707203b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_40.png using Guid(7df5019280b30ba4dbb738f707203b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bb5da0290647c6f249f8350f9a0222') in 0.010355 seconds
+  Import took 0.011904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/pipeGrey_35.png
+  artifactKey: Guid(6cba4fd2e930f1744bb94758982396ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_35.png using Guid(6cba4fd2e930f1744bb94758982396ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f17d7d1571117fcdd16e3fc8dd548ab') in 0.010508 seconds
+  Import took 0.012070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/pipeGrey_37.png
+  artifactKey: Guid(92786b33ad98c4447ab7a4880b4c0bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_37.png using Guid(92786b33ad98c4447ab7a4880b4c0bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc5e3fe9888822e911cce0296f4303d') in 0.010771 seconds
+  Import took 0.012390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/pipeGrey_41.png
+  artifactKey: Guid(05129c62e576fd24abf9a28146e060d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_41.png using Guid(05129c62e576fd24abf9a28146e060d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688b3abf6e2dbf07e24511de6465999a') in 0.010217 seconds
+  Import took 0.011816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/pipeGrey_34.png
+  artifactKey: Guid(3d90da6efd227244ca7f5da758fa59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_34.png using Guid(3d90da6efd227244ca7f5da758fa59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4626addb6654ab163780fff5a1b5ba') in 0.005480 seconds
+  Import took 0.007111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/pipeGrey_36.png
+  artifactKey: Guid(75d5b79be77b35642a8739ed2da86897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_36.png using Guid(75d5b79be77b35642a8739ed2da86897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee81de07abaf2a72a628ff7aab5002c9') in 0.010716 seconds
+  Import took 0.012384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.374775 seconds.
+  path: Assets/Sprites/pipeGrey_42.png
+  artifactKey: Guid(f1e21943c09b9464e8490696d3aefe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_42.png using Guid(f1e21943c09b9464e8490696d3aefe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2e024f177402d919d3e28614e01e6e') in 0.013647 seconds
+  Import took 0.015664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_particles.png
+  artifactKey: Guid(e55a235c71ac6b94bbad6f690e80f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_particles.png using Guid(e55a235c71ac6b94bbad6f690e80f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3126ebef084013535f9b4ff92ad2279') in 0.272685 seconds
+  Import took 0.274503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/pipeGrey_42.png
+  artifactKey: Guid(f1e21943c09b9464e8490696d3aefe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_42.png using Guid(f1e21943c09b9464e8490696d3aefe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2e024f177402d919d3e28614e01e6e') in 0.004921 seconds
+  Import took 0.006540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_paddles.png
+  artifactKey: Guid(ef86d6fbe9cd8c844afe80339a53c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_paddles.png using Guid(ef86d6fbe9cd8c844afe80339a53c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296d33805914bd34623ac22ba72d355b') in 0.066169 seconds
+  Import took 0.067700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Sprites/pipeGrey_44.png
+  artifactKey: Guid(cc979858f96a2f54fa5a04184e18c923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_44.png using Guid(cc979858f96a2f54fa5a04184e18c923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58213171888b9bd29711c761c09baed') in 0.010588 seconds
+  Import took 0.012315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_balls.png
+  artifactKey: Guid(e4589df51e8c3474fbb620733db9afd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_balls.png using Guid(e4589df51e8c3474fbb620733db9afd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4650c062ed88ac7a2d3443a5fef814b5') in 0.045674 seconds
+  Import took 0.047436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/pipeGrey_43.png
+  artifactKey: Guid(709bd0c9d88d76b42a42aa1961ea42fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pipeGrey_43.png using Guid(709bd0c9d88d76b42a42aa1961ea42fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4a5348180bafd79912a38968c703fb') in 0.012666 seconds
+  Import took 0.014417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_backtiles.png
+  artifactKey: Guid(a1d942e0fdafc4c42a7d44927e501de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_backtiles.png using Guid(a1d942e0fdafc4c42a7d44927e501de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe2113522b588e742778766e44c61ad') in 0.011746 seconds
+  Import took 0.013380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_coins.png
+  artifactKey: Guid(243599a8faadef5459853b7cd7690e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_coins.png using Guid(243599a8faadef5459853b7cd7690e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dda2a07d2285591217a8a8e2846809d') in 0.043009 seconds
+  Import took 0.044619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002466 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_coins.png
+  artifactKey: Guid(243599a8faadef5459853b7cd7690e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_coins.png using Guid(243599a8faadef5459853b7cd7690e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dda2a07d2285591217a8a8e2846809d') in 0.010009 seconds
+  Import took 0.011787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.851516 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_37.png
+  artifactKey: Guid(0da5ab1089f156345b02c5e863e254ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_37.png using Guid(0da5ab1089f156345b02c5e863e254ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a33d76b0fb9d76a91c77925a2346b') in 0.045757 seconds
+  Import took 0.047972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_39.png
+  artifactKey: Guid(d0de144a957290e459dd533cb96629e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_39.png using Guid(d0de144a957290e459dd533cb96629e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd39080c4dd0fb570efc4bafa515ed9') in 0.035231 seconds
+  Import took 0.037128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_44.png
+  artifactKey: Guid(2db9b5f1942055d4596a31045544d29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_44.png using Guid(2db9b5f1942055d4596a31045544d29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cff9dbb1027842aaf984abf05f02274') in 0.034539 seconds
+  Import took 0.036190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_32.png
+  artifactKey: Guid(67f88719657e71646b46886a4a2c84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_32.png using Guid(67f88719657e71646b46886a4a2c84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389318866d8a503f82d1b4bf14a39dba') in 0.017740 seconds
+  Import took 0.019602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_36.png
+  artifactKey: Guid(c60bb54fc8d14f64b9444bcd08849e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_36.png using Guid(c60bb54fc8d14f64b9444bcd08849e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c2c79f5f7d499bc91eeca7e3c7f0a2') in 0.027799 seconds
+  Import took 0.029801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_43.png
+  artifactKey: Guid(ef29fa91bf26416499e8e533101acd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_43.png using Guid(ef29fa91bf26416499e8e533101acd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e83ec74f554c5b4706c47ff01f6add') in 0.017480 seconds
+  Import took 0.019324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_23.png
+  artifactKey: Guid(9745e80db9a791146a62049d8fed5331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_23.png using Guid(9745e80db9a791146a62049d8fed5331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269b243ca8a2bbf5e04cb95d0ee8d0fe') in 0.026297 seconds
+  Import took 0.028551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_34.png
+  artifactKey: Guid(0eed961d6b74b9449a9a28e18874a873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_34.png using Guid(0eed961d6b74b9449a9a28e18874a873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a9e01e4d5fbeba7622db723de851cf') in 0.060306 seconds
+  Import took 0.062598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_16.png
+  artifactKey: Guid(d7f08fd788ae3b44f96f1132e0eaf0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_16.png using Guid(d7f08fd788ae3b44f96f1132e0eaf0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc84e15924ca886d8559430797c65019') in 0.023312 seconds
+  Import took 0.025050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_15.png
+  artifactKey: Guid(3675ddc9b6ce4e048ac4684a34fba2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_15.png using Guid(3675ddc9b6ce4e048ac4684a34fba2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b63331caa64d7f406feee686260344') in 0.030092 seconds
+  Import took 0.032056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_17.png
+  artifactKey: Guid(6669d0f34d866b346887bfe7df043d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_17.png using Guid(6669d0f34d866b346887bfe7df043d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad09b8f6249306668825e96211929e66') in 0.018867 seconds
+  Import took 0.020893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_07.png
+  artifactKey: Guid(e4da7bb9b5579d64f8bb6b42a91b6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_07.png using Guid(e4da7bb9b5579d64f8bb6b42a91b6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedfc911c7ce1515868ac6bbb9c945ca') in 0.019385 seconds
+  Import took 0.021368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_19.png
+  artifactKey: Guid(0e0bf554e7b563a4aa11758ec66acdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_19.png using Guid(0e0bf554e7b563a4aa11758ec66acdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663dbbd63e16cb260b7aae5a4546d9ab') in 0.054351 seconds
+  Import took 0.056468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_13.png
+  artifactKey: Guid(d97dd5bd81c16fe43a898a3786ce5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_13.png using Guid(d97dd5bd81c16fe43a898a3786ce5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c833763c1f1412924674f1c830280715') in 0.065373 seconds
+  Import took 0.067289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_14.png
+  artifactKey: Guid(77d9da4ccc9fffc4e90acda4d89836df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_14.png using Guid(77d9da4ccc9fffc4e90acda4d89836df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e94ff5c74fa451e60827f4b5f07f74') in 0.031973 seconds
+  Import took 0.033879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_34.png
+  artifactKey: Guid(0eed961d6b74b9449a9a28e18874a873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_34.png using Guid(0eed961d6b74b9449a9a28e18874a873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a9e01e4d5fbeba7622db723de851cf') in 0.005661 seconds
+  Import took 0.007550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_22.png
+  artifactKey: Guid(5d4e524afa0a240469db05ea5a81571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_22.png using Guid(5d4e524afa0a240469db05ea5a81571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f82f4ed874a53e46171adebf588574') in 0.017044 seconds
+  Import took 0.018957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_33.png
+  artifactKey: Guid(76c4e7a601527f040b4619f637b07ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_33.png using Guid(76c4e7a601527f040b4619f637b07ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c28f9bcffbe38a264fbad30dd5a0a') in 0.016019 seconds
+  Import took 0.017984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_25.png
+  artifactKey: Guid(58119918a5e23604abad531990aaa2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_25.png using Guid(58119918a5e23604abad531990aaa2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0ff94ad58073f5be8a36e52337722') in 0.017918 seconds
+  Import took 0.020002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_10.png
+  artifactKey: Guid(e30f7b648c5f5444ead67c425ecaceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_10.png using Guid(e30f7b648c5f5444ead67c425ecaceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298807570bce9ff3d5769c6c624bfc55') in 0.015954 seconds
+  Import took 0.017690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_35.png
+  artifactKey: Guid(183d9df5d5bb2bd408e778e3bcf349ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_35.png using Guid(183d9df5d5bb2bd408e778e3bcf349ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db17912d55a6f8b15edb8be349d08e48') in 0.017572 seconds
+  Import took 0.019495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_18.png
+  artifactKey: Guid(9d84967d712b8034489f636236e269b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_18.png using Guid(9d84967d712b8034489f636236e269b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7e2a716b1962108f85517d746101d1') in 0.042343 seconds
+  Import took 0.044368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_06.png
+  artifactKey: Guid(800fff137c2629243a53a630b4482a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_06.png using Guid(800fff137c2629243a53a630b4482a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc82ca5ed51e7eb0954e0af7221cf8e4') in 0.020374 seconds
+  Import took 0.022073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_12.png
+  artifactKey: Guid(ad861de4020121444baae5e9e46fb9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_12.png using Guid(ad861de4020121444baae5e9e46fb9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7bbd7b217ac0d3f80f2101b7cf948a') in 0.035737 seconds
+  Import took 0.037631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_05.png
+  artifactKey: Guid(9299f6e9fba5ea7439904c4bf503c31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_05.png using Guid(9299f6e9fba5ea7439904c4bf503c31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d9704057bf7db9ff7c07bfc66b7109') in 0.045671 seconds
+  Import took 0.047597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_27.png
+  artifactKey: Guid(be93495a4d7015b48b0c04b127f334f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_27.png using Guid(be93495a4d7015b48b0c04b127f334f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6338b1e887e6dc690098d2fc2f2b7e') in 0.034653 seconds
+  Import took 0.036362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_31.png
+  artifactKey: Guid(96d4173bfcffd38439832cb7a6265915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_31.png using Guid(96d4173bfcffd38439832cb7a6265915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6580b0fc7f8a2fe3d346fe10af67fa') in 0.054861 seconds
+  Import took 0.056778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_28.png
+  artifactKey: Guid(1ff1abc45db298b4587510447e588696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_28.png using Guid(1ff1abc45db298b4587510447e588696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21031c56b4a0d7aedca0122f2e051a12') in 0.070335 seconds
+  Import took 0.072031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_30.png
+  artifactKey: Guid(cafe12de95d74aa49ad82d051ac2dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_30.png using Guid(cafe12de95d74aa49ad82d051ac2dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f695176412fd3708b5865355be233f2') in 0.020441 seconds
+  Import took 0.022309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_41.png
+  artifactKey: Guid(ca4e86ad5b11d074aaac9df9bf56d73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_41.png using Guid(ca4e86ad5b11d074aaac9df9bf56d73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc5bc1059b86e11239ba1e6cf4e1fbe') in 0.016489 seconds
+  Import took 0.018231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_42.png
+  artifactKey: Guid(80f73225c9ae4204b91583811aa02aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_42.png using Guid(80f73225c9ae4204b91583811aa02aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4329fffdc0cf26858a6a3377774b120d') in 0.017625 seconds
+  Import took 0.019524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_24.png
+  artifactKey: Guid(0c424dd84eaec824d9e2bbbca1ecfff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_24.png using Guid(0c424dd84eaec824d9e2bbbca1ecfff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b83be600765ec88ed60880030bc630') in 0.028893 seconds
+  Import took 0.030806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_09.png
+  artifactKey: Guid(f6e409a723679d3448889b8e401add76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_09.png using Guid(f6e409a723679d3448889b8e401add76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ab6b43f579fe5a3c0009c3d95852a8') in 0.035136 seconds
+  Import took 0.036803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_26.png
+  artifactKey: Guid(cc85ee8e6419dea4e83548f9fa671309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_26.png using Guid(cc85ee8e6419dea4e83548f9fa671309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b7cf07f7ba408a25a18a525323de8a') in 0.022662 seconds
+  Import took 0.024574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_11.png
+  artifactKey: Guid(6a5d92d92729d3a4f96bf44d1f872b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_11.png using Guid(6a5d92d92729d3a4f96bf44d1f872b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2456fe2978541d5b4d97317e0962231') in 0.030601 seconds
+  Import took 0.032438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_08.png
+  artifactKey: Guid(1a06e6cab1ceed94abada42fbae5cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_08.png using Guid(1a06e6cab1ceed94abada42fbae5cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8c9d35f787f1c07c1713af6dc8e9f1') in 0.018992 seconds
+  Import took 0.020896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_40.png
+  artifactKey: Guid(e497d92006cbb9f4f9f4e26916005aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_40.png using Guid(e497d92006cbb9f4f9f4e26916005aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096f5c1e9365f316e907016822f3aa6d') in 0.032547 seconds
+  Import took 0.034509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_21.png
+  artifactKey: Guid(c2f52e1afe62389458df7957b3fd1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_21.png using Guid(c2f52e1afe62389458df7957b3fd1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5214b7c8367b22f071aa7a1e9357f917') in 0.017418 seconds
+  Import took 0.019193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_29.png
+  artifactKey: Guid(0681b4b326ba73940a714185d611ced7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_29.png using Guid(0681b4b326ba73940a714185d611ced7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52465317006da1a6cbff16fbe15df77a') in 0.017678 seconds
+  Import took 0.019708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_20.png
+  artifactKey: Guid(d5b777f5ff959bd4f8120012faa8f497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_20.png using Guid(d5b777f5ff959bd4f8120012faa8f497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f17b82849a34ad90c1a0fb3b0a27c9') in 0.016722 seconds
+  Import took 0.018670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_38.png
+  artifactKey: Guid(bb7afc72c4d6d0a44a7c8568cdf79e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_38.png using Guid(bb7afc72c4d6d0a44a7c8568cdf79e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba883099f19b95fa4782b0c4f44ed106') in 0.031252 seconds
+  Import took 0.032847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.376650 seconds.
+  path: Assets/Kenney Assets/PNG/Particles yellow/particleYellow_4.png
+  artifactKey: Guid(361d282dc82028e4092f7fb9a8c9bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles yellow/particleYellow_4.png using Guid(361d282dc82028e4092f7fb9a8c9bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff71f1423757f5d9e6a010f05c011a8') in 0.017949 seconds
+  Import took 0.019898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_03.png
+  artifactKey: Guid(0e97b1f1bc05c074f9132f578fb6e472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_03.png using Guid(0e97b1f1bc05c074f9132f578fb6e472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a367e3b8adbc951e3b94053078250e1') in 0.022548 seconds
+  Import took 0.024404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Kenney Assets/PNG/Particles yellow/particleYellow_5.png
+  artifactKey: Guid(7c875a490d41dcc42b69aeed27a91775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles yellow/particleYellow_5.png using Guid(7c875a490d41dcc42b69aeed27a91775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6ba67cc0da7244c6a977638699a549') in 0.031933 seconds
+  Import took 0.033518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_02.png
+  artifactKey: Guid(be308f34cd3ede5438c770d2b9c7a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_02.png using Guid(be308f34cd3ede5438c770d2b9c7a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda715b3129b0d674ce68dbf3cc5c58f') in 0.019273 seconds
+  Import took 0.020983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_04.png
+  artifactKey: Guid(da29eb981741fe94b8de1c2dc7ad8e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_04.png using Guid(da29eb981741fe94b8de1c2dc7ad8e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bb83b858faec74af65d07b8f9ae0bd') in 0.035466 seconds
+  Import took 0.037269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Kenney Assets/PNG/Particles yellow/particleYellow_7.png
+  artifactKey: Guid(38126f30f330dcf4688bfb7b1e41463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles yellow/particleYellow_7.png using Guid(38126f30f330dcf4688bfb7b1e41463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ec21c1c78132709dbbf82d2b223205') in 0.018929 seconds
+  Import took 0.020827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_01.png
+  artifactKey: Guid(68f3299613e59eb48b08da6ebdc3c379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Pipes/Green/pipeGreen_01.png using Guid(68f3299613e59eb48b08da6ebdc3c379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31f83f553dd4511c0cec1bdfa5fb806') in 0.016737 seconds
+  Import took 0.018481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Kenney Assets/PNG/Particles yellow/particleYellow_6.png
+  artifactKey: Guid(a788a5ef75a3ff743a47b1637951f579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles yellow/particleYellow_6.png using Guid(a788a5ef75a3ff743a47b1637951f579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a599a8895ddf8ae2546edef86630599') in 0.016902 seconds
+  Import took 0.018642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.630229 seconds.
+  path: Assets/Kenney Assets/PNG/Particles blue/particleBlue_2.png
+  artifactKey: Guid(fa72e222e6ccd524ea38e7e8fba623af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles blue/particleBlue_2.png using Guid(fa72e222e6ccd524ea38e7e8fba623af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f45641399e22ca01538c05ab0a888ed') in 0.021252 seconds
+  Import took 0.023604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Kenney Assets/PNG/Particles blue/particleBlue_7.png
+  artifactKey: Guid(a3c3c0d7a64c65f46bf57eb13818fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles blue/particleBlue_7.png using Guid(a3c3c0d7a64c65f46bf57eb13818fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3c6bce6f671b5bb7bac76ddbb4ea44') in 0.034642 seconds
+  Import took 0.036537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Kenney Assets/PNG/Particles white/particleWhite_4.png
+  artifactKey: Guid(5c9427b2f6400634a8fd7c6d1335f508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles white/particleWhite_4.png using Guid(5c9427b2f6400634a8fd7c6d1335f508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d9a46e224a2b216468ab5bb5a1478f') in 0.028084 seconds
+  Import took 0.029636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Kenney Assets/PNG/Particles yellow/particleYellow_3.png
+  artifactKey: Guid(3872cede2c39dd44ca63cd57bd79eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles yellow/particleYellow_3.png using Guid(3872cede2c39dd44ca63cd57bd79eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7f1269ab0d42940d028b98a653f586') in 0.017596 seconds
+  Import took 0.019537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Kenney Assets/PNG/Particles white/particleWhite_2.png
+  artifactKey: Guid(5edd002664c708b42a298baa91ff8aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles white/particleWhite_2.png using Guid(5edd002664c708b42a298baa91ff8aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05bf3801a8fd1d9417a69d6a41adb38') in 0.017418 seconds
+  Import took 0.019157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Kenney Assets/PNG/Particles white/particleWhite_6.png
+  artifactKey: Guid(34956bc33c7bdee428336cc7850a2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles white/particleWhite_6.png using Guid(34956bc33c7bdee428336cc7850a2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5547aff80902223f2750b6e1a14b8b7') in 0.017906 seconds
+  Import took 0.019854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Kenney Assets/PNG/Particles blue/particleBlue_5.png
+  artifactKey: Guid(0a1d55b919f93a647a086a7579ee48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles blue/particleBlue_5.png using Guid(0a1d55b919f93a647a086a7579ee48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b02f8ebf04b82423429e00e4ebad12e') in 0.016900 seconds
+  Import took 0.018982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Kenney Assets/PNG/Particles white/particleWhite_5.png
+  artifactKey: Guid(9a260deefa4322c4bba3036fb0d53536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles white/particleWhite_5.png using Guid(9a260deefa4322c4bba3036fb0d53536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40286045117ee539ee42e05cbd175160') in 0.019481 seconds
+  Import took 0.021504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Kenney Assets/PNG/Particles white/particleWhite_1.png
+  artifactKey: Guid(dd1ee0b7655fc684f9ddfed01c20b66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles white/particleWhite_1.png using Guid(dd1ee0b7655fc684f9ddfed01c20b66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea702db9f45892aca3dceac4bfd4677') in 0.018254 seconds
+  Import took 0.020148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Kenney Assets/PNG/Particles blue/particleBlue_6.png
+  artifactKey: Guid(3a3f154b86c58234ab5aa23431106456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles blue/particleBlue_6.png using Guid(3a3f154b86c58234ab5aa23431106456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db688d595221ac682ba2188c5c45ab46') in 0.037927 seconds
+  Import took 0.039847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Kenney Assets/PNG/Particles white/particleWhite_3.png
+  artifactKey: Guid(63fe5ee90f86706458fc13d8e5bb2181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles white/particleWhite_3.png using Guid(63fe5ee90f86706458fc13d8e5bb2181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9427c8b95045b1fb9249c08167c6f5') in 0.049691 seconds
+  Import took 0.051615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Kenney Assets/PNG/Particles white/particleWhite_7.png
+  artifactKey: Guid(89643a56fd1d40a46bde44e3a8dd40eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles white/particleWhite_7.png using Guid(89643a56fd1d40a46bde44e3a8dd40eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a705d9fa09f479420d4c923756c1fda7') in 0.028845 seconds
+  Import took 0.030755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Kenney Assets/PNG/Particles blue/particleBlue_4.png
+  artifactKey: Guid(2d7040fc571249b43980e3dd4fcad312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles blue/particleBlue_4.png using Guid(2d7040fc571249b43980e3dd4fcad312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1050378c2a9ddcd400e30ee355f42468') in 0.017875 seconds
+  Import took 0.019778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Kenney Assets/PNG/Particles blue/particleBlue_2.png
+  artifactKey: Guid(fa72e222e6ccd524ea38e7e8fba623af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles blue/particleBlue_2.png using Guid(fa72e222e6ccd524ea38e7e8fba623af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f45641399e22ca01538c05ab0a888ed') in 0.005964 seconds
+  Import took 0.007853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Kenney Assets/PNG/Particles yellow/particleYellow_2.png
+  artifactKey: Guid(faf445997cd3e8e42829e5dc9e89ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles yellow/particleYellow_2.png using Guid(faf445997cd3e8e42829e5dc9e89ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ef8b532af17d1de3b83aa77b8b71fd') in 0.017597 seconds
+  Import took 0.019431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Kenney Assets/PNG/Particles yellow/particleYellow_1.png
+  artifactKey: Guid(53e53cc2a312e88479a96221b98a29a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles yellow/particleYellow_1.png using Guid(53e53cc2a312e88479a96221b98a29a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3767141df1e176191b0e4942f3222a84') in 0.017487 seconds
+  Import took 0.018942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Kenney Assets/PNG/Particles blue/particleBlue_3.png
+  artifactKey: Guid(b260f7de6d7f98c48be9190903df68a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Particles blue/particleBlue_3.png using Guid(b260f7de6d7f98c48be9190903df68a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b88edb2b591c531a7b9e215026890e4') in 0.017481 seconds
+  Import took 0.019490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.831220 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_pipes.png
+  artifactKey: Guid(68a34cc9fcb47064c8463e17564818f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_pipes.png using Guid(68a34cc9fcb47064c8463e17564818f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0de8899750f372232ee48180ae79f0e') in 0.122657 seconds
+  Import took 0.124689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesGreen.png
+  artifactKey: Guid(25bac570f97c837468c0e5fec5143733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesGreen.png using Guid(25bac570f97c837468c0e5fec5143733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cadd2e02533e36e20df658e40ab471') in 0.056507 seconds
+  Import took 0.058426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesRed.png
+  artifactKey: Guid(2ded8d9eaeae4cb429c0d317355a9c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesRed.png using Guid(2ded8d9eaeae4cb429c0d317355a9c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845c69df3561cefc49cc73a3abaee22a') in 0.022444 seconds
+  Import took 0.024031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesPink.png
+  artifactKey: Guid(686511fb5f4963e4dae5abcd3452c0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesPink.png using Guid(686511fb5f4963e4dae5abcd3452c0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c5218ec996051fc7d4360a87124c66') in 0.032244 seconds
+  Import took 0.034223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesBlack.png
+  artifactKey: Guid(457c018b8ce20944da9ca94f33c7074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesBlack.png using Guid(457c018b8ce20944da9ca94f33c7074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccfb59d92b8b0b26454d2d52fcdb556') in 0.057825 seconds
+  Import took 0.059786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesBlue.png
+  artifactKey: Guid(9a28c283e8ae2b74bb4a27c95f857b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesBlue.png using Guid(9a28c283e8ae2b74bb4a27c95f857b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622e2a3d80b095068f53a682895a2d7c') in 0.050800 seconds
+  Import took 0.052739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesOranges.png
+  artifactKey: Guid(0106b6cf2d34ff94e918ac06a60f292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesOranges.png using Guid(0106b6cf2d34ff94e918ac06a60f292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30ebd70b20c35a17aeae0d39f1d7f90') in 0.075691 seconds
+  Import took 0.077563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesGrey.png
+  artifactKey: Guid(61c66dc4dad0a5f4cb95ce9e440b06e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesGrey.png using Guid(61c66dc4dad0a5f4cb95ce9e440b06e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b4167da61640589a15cf46380748c4') in 0.052507 seconds
+  Import took 0.054333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.851102 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesYellow.png
+  artifactKey: Guid(1209dbf55cad6c44fa26a7875029a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesYellow.png using Guid(1209dbf55cad6c44fa26a7875029a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aa94dd2d7dbc3e234028fa7410d9cb') in 0.116748 seconds
+  Import took 0.118839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_01.png
+  artifactKey: Guid(8a19346a0b055d440842c623d7b5a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_01.png using Guid(8a19346a0b055d440842c623d7b5a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4ad320c0ecc4a859c9edf81815de6') in 0.020937 seconds
+  Import took 0.022891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_04.png
+  artifactKey: Guid(e1922fa4ae9fdbb4890d3d8a1ada8809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_04.png using Guid(e1922fa4ae9fdbb4890d3d8a1ada8809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b469d934b513b5c3ef66ee992d0f7173') in 0.019540 seconds
+  Import took 0.021353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_01.png
+  artifactKey: Guid(8a19346a0b055d440842c623d7b5a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_01.png using Guid(8a19346a0b055d440842c623d7b5a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4ad320c0ecc4a859c9edf81815de6') in 0.006385 seconds
+  Import took 0.008022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_07.png
+  artifactKey: Guid(4e18d1310828be9418c1c16607887d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_07.png using Guid(4e18d1310828be9418c1c16607887d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2983b7e49eb13a5bbb4f9d06a91231') in 0.017468 seconds
+  Import took 0.019429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Kenney Assets/Spritesheet/spritesheet_tilesYellow.png
+  artifactKey: Guid(1209dbf55cad6c44fa26a7875029a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Spritesheet/spritesheet_tilesYellow.png using Guid(1209dbf55cad6c44fa26a7875029a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aa94dd2d7dbc3e234028fa7410d9cb') in 0.011184 seconds
+  Import took 0.013326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_02.png
+  artifactKey: Guid(b9e8a22de4d095b4b8ee26dabab1caa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_02.png using Guid(b9e8a22de4d095b4b8ee26dabab1caa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577cf4422378e7ba96757758a8497f30') in 0.017182 seconds
+  Import took 0.019400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_05.png
+  artifactKey: Guid(45606b61d96d23e478ea8b45ee00183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_05.png using Guid(45606b61d96d23e478ea8b45ee00183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa08eac50458159e409c8e46dd7d3d46') in 0.041262 seconds
+  Import took 0.043179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_03.png
+  artifactKey: Guid(dc8107bebdb38474fa119aff6d5c266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_03.png using Guid(dc8107bebdb38474fa119aff6d5c266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a2f728ae6d9b01f8bdb01c501dff2a') in 0.016112 seconds
+  Import took 0.018017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Kenney Assets/PNG/Tiles black/tileBlack_06.png
+  artifactKey: Guid(1c3cf2cd4e4e72a4cbec1f4f5016e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/PNG/Tiles black/tileBlack_06.png using Guid(1c3cf2cd4e4e72a4cbec1f4f5016e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78490bd7d512e56a0729a62636db415a') in 0.019244 seconds
+  Import took 0.020910 seconds .
+
