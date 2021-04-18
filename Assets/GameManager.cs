@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,8 +15,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject buttonPanel;
 
-    public TextMeshProUGUI movesLeft;
-    public TextMeshProUGUI lockedUnlocked;
+    public Text movesLeft;
 
     //How many pipes do we have?
     [SerializeField]
@@ -28,7 +26,6 @@ public class GameManager : MonoBehaviour
     int correctedPipes = 0;
 
     public int moves;
-
 
 
 
@@ -64,8 +61,11 @@ public class GameManager : MonoBehaviour
         //If the amount of pipes we have is the same as the amount of correct pipes, then
         if(correctedPipes == totalPipes)
         {
+            //You win!
+            Debug.Log("You win!");
+            gamePanel.SetActive(false);
+            buttonPanel.SetActive(true);
 
-            StartCoroutine("solvedPuzzle");
         }
     }
 
@@ -74,6 +74,8 @@ public class GameManager : MonoBehaviour
     {
         //Decrement the amount of pipes correctly placed
         correctedPipes--;
+
+
 
         //Not necessary but, for flair
         Debug.Log("That's not quite it");
@@ -85,30 +87,4 @@ public class GameManager : MonoBehaviour
         gamePanel.SetActive(false);
         buttonPanel.SetActive(true);
     }
-
-    IEnumerator solvedPuzzle()
-    {
-        lockedUnlocked.color = Color.green;
-        lockedUnlocked.text = "Unlocked";
-        for (int i = 0; i < Pipes.Length; i++)
-        {
-            Pipes[i].GetComponent<PipeScript>().SolvedPiece();
-            yield return new WaitForSeconds(0.5f);
-        }
-
-        yield return new WaitForSeconds(2.0f);
-        //You win!
-        Debug.Log("You win!");
-        gamePanel.SetActive(false);
-        buttonPanel.SetActive(true);
-        lockedUnlocked.color = Color.red;
-        lockedUnlocked.text = "Locked";
-        StopCoroutine("solvedPuzzle");
-        for (int i = 0; i < Pipes.Length; i++)
-        {
-            Pipes[i].GetComponent<PipeScript>().Initialize();
-        }
-        yield return null;
-    }
-
 }
