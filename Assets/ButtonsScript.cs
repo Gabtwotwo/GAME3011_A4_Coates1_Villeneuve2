@@ -23,7 +23,7 @@ public class ButtonsScript : MonoBehaviour
 
     public void EasyButton()
     {
-        gameManager.moves = 40;
+        gameManager.moves = 30;
 
         gameManager.movesLeft.text = "Moves Remaining: " + gameManager.moves;
 
@@ -33,7 +33,7 @@ public class ButtonsScript : MonoBehaviour
 
     public void MediumButton()
     {
-        gameManager.moves = 35;
+        gameManager.moves = 25;
 
         gameManager.movesLeft.text = "Moves Remaining: " + gameManager.moves;
 
@@ -43,7 +43,7 @@ public class ButtonsScript : MonoBehaviour
 
     public void HardButton()
     {
-        gameManager.moves = 28;
+        gameManager.moves = 20;
 
         gameManager.movesLeft.text = "Moves Remaining: " + gameManager.moves;
 
