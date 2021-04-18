@@ -1,0 +1,4 @@
+The theme for our hacking game is pipes, similar to bioshock. The art theme reflects this, as the backgrounds and assets were taken from the first installement.
+The game works by holding an array of gameObjects, and having each of them understand a specific rotation that is bound as "correct". Once a pipe is in the correct rotation,
+the boolean switches to true. Once all pipes are true, you win! The difficulties give you different amounts of moves, the hardest giving you the least. The art assets are mostly
+bonus. The game is simple enough, and the array that holds all pipes is dynamic, so the puzzle can be easily modified as long as you specify what the correct rotation for a pipe is.
