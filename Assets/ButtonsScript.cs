@@ -7,10 +7,10 @@ public class ButtonsScript : MonoBehaviour
 
     //A reference to our game manager.
     [SerializeField]
-    GameManager gameManager;
+    private GameManager gameManager;
 
     [SerializeField]
-    GameObject gamePanel;
+    private GameObject gamePanel;
 
 
     //Find our game object before the start method
@@ -28,8 +28,7 @@ public class ButtonsScript : MonoBehaviour
         gameManager.movesLeft.text = "Moves Remaining: " + gameManager.moves;
 
 
-        gamePanel.SetActive(true);
-        this.transform.parent.gameObject.SetActive(false);
+
     }
 
     public void MediumButton()
@@ -38,8 +37,7 @@ public class ButtonsScript : MonoBehaviour
 
         gameManager.movesLeft.text = "Moves Remaining: " + gameManager.moves;
 
-        gamePanel.SetActive(true);
-        this.transform.parent.gameObject.SetActive(false);
+
 
     }
 
@@ -49,8 +47,6 @@ public class ButtonsScript : MonoBehaviour
 
         gameManager.movesLeft.text = "Moves Remaining: " + gameManager.moves;
 
-        gamePanel.SetActive(true);
-        this.transform.parent.gameObject.SetActive(false);
 
     }
 

@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class PipeScript : MonoBehaviour
 {
     //Every possible rotation of the pipes
-    float[] rotations = { 0, 90, 180, 270 };
+    float[] rotations = { 0.0f, 90.0f, 180.0f, 270.0f };
 
     //The float Z value of the pipe that is correct for the puzzle
     public float[] correctRotation;
@@ -22,6 +22,9 @@ public class PipeScript : MonoBehaviour
     //A reference to our game manager.
     GameManager gameManager;
 
+    public Sprite emptyPipe, fullPipe;
+
+    public float rotation;
 
     //Find our game object before the start method
     private void Awake()
@@ -32,17 +35,34 @@ public class PipeScript : MonoBehaviour
 
     private void Start()
     {
+        Initialize();
+
+
+
+    }
+
+    public void Initialize()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = emptyPipe;
         //The number of possible correct rotations of a pipe is equal to whatever value we give in in the editor. 
         PossibleRotations = correctRotation.Length;
 
         //Get a random number between 0 and 3 (Or whatever amount of angles you want the pipes to be able to have)
-        int rand = Random.Range(0, rotations.Length);
+        int rand = Random.Range(0, rotations.Length - 1);
 
         //Every possible rotation, in this case, either 0, 90, 180 or 270.
         transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
+        //transform.eulerAngles = new Vector3(0, 0, Mathf.Clamp(rotations[rand], 0, 270) /*rotations[rand]*/);
+
+        rotation = transform.eulerAngles.z;
+        if (transform.eulerAngles.z == 180)
+        {
+            Debug.Log(gameObject.name + ": we arent supposed to be here");
+            transform.eulerAngles = new Vector3(0, 0, 90.0f);
+        }
 
         //If a pipe has more than one possible correct rotation
-        if(PossibleRotations > 1)
+        if (PossibleRotations > 1)
         {
             //Are either of the angles correct when the game boots up? 
             if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1])
@@ -65,15 +85,13 @@ public class PipeScript : MonoBehaviour
 
             }
         }
-
-
-
     }
 
    void OnMouseDown()
     {
         //Once you click, rotate the clicked pipe by 90 degrees.
-        transform.Rotate(new Vector3(0, 0, 90));
+        transform.Rotate(new Vector3(0, 0, 90.0f));
+
 
         gameManager.moves--;
 
@@ -97,7 +115,6 @@ public class PipeScript : MonoBehaviour
                 isPlaced = false;
                 //Update the game manager
                 gameManager.wrongMove();
-
             }
         }
         else
@@ -120,14 +137,32 @@ public class PipeScript : MonoBehaviour
 
             }
         }
+        
 
-
-        if(gameManager.moves <= 0)
-        {
-            gameManager.gameOver();
-        }
+        //if(gameManager.moves <= 0)
+        //{
+        //    gameManager.gameOver();
+        //}
     }
 
-    
+    private void Update()
+    {
+        //if (!isPlaced)
+        //{
+        //    //Sets sprite to empty
+        //    gameObject.GetComponent<SpriteRenderer>().sprite = emptyPipe;
+        //}
+        //else
+        //{
+        //    //Sets sprite to full
+        //    gameObject.GetComponent<SpriteRenderer>().sprite = fullPipe;
+
+        //}
+    }
+
+    public void SolvedPiece()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = fullPipe;
+    }
 
 }
