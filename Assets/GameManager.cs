@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,12 @@ public class GameManager : MonoBehaviour
     //An array of all pipe game objects
     public GameObject[] Pipes;
 
+    public GameObject gamePanel;
+
+    public GameObject buttonPanel;
+
+    public Text movesLeft;
+
     //How many pipes do we have?
     [SerializeField]
     public int totalPipes = 0;
@@ -17,6 +24,10 @@ public class GameManager : MonoBehaviour
     //How many pipes are currently correctly oriented?
     [SerializeField]
     int correctedPipes = 0;
+
+    public int moves;
+
+
 
     void Start()
     {
@@ -45,11 +56,16 @@ public class GameManager : MonoBehaviour
         //Debug, let the player know
         Debug.Log("Correct Move!");
 
+
+
         //If the amount of pipes we have is the same as the amount of correct pipes, then
         if(correctedPipes == totalPipes)
         {
             //You win!
             Debug.Log("You win!");
+            gamePanel.SetActive(false);
+            buttonPanel.SetActive(true);
+
         }
     }
 
@@ -58,7 +74,17 @@ public class GameManager : MonoBehaviour
     {
         //Decrement the amount of pipes correctly placed
         correctedPipes--;
+
+
+
         //Not necessary but, for flair
         Debug.Log("That's not quite it");
+    }
+
+    public void gameOver()
+    {
+        Debug.Log("You lose!");
+        gamePanel.SetActive(false);
+        buttonPanel.SetActive(true);
     }
 }

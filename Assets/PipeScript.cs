@@ -75,6 +75,10 @@ public class PipeScript : MonoBehaviour
         //Once you click, rotate the clicked pipe by 90 degrees.
         transform.Rotate(new Vector3(0, 0, 90));
 
+        gameManager.moves--;
+
+        gameManager.movesLeft.text = "Moves Remaining: " + gameManager.moves;
+
         //Does the pipe have more than one correct way to be rotated?
         if (PossibleRotations > 1)
         {
@@ -115,6 +119,12 @@ public class PipeScript : MonoBehaviour
                 gameManager.wrongMove();
 
             }
+        }
+
+
+        if(gameManager.moves <= 0)
+        {
+            gameManager.gameOver();
         }
     }
 
